@@ -24,12 +24,3 @@ if input1 == "E":
 
 
 
-if input1 == "D":
-    secret = input("What do you need to decrypt?")
-    key = input("What's your key?")
-    token = Fernet(key)
-    token = bytes(token, 'utf-8')
-    print("the decrypted string is :" + token.decrypt(secret))
-    
-    
-
