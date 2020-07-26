@@ -40,7 +40,7 @@ The next step is to "Unpack" the zip Folder, to do that right-click the Zip fold
 then press Extract All, and it will ask you where to extract to, just press OK. Then go into the new folder.
 
 Then open the Exe Folder, then you can use the executable versions of the scripts.
-
+After opening the exe you may get a error like this:
 To-do:
 - [x] Executables
 - [ ] Ping.py executable
