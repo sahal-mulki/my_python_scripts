@@ -41,4 +41,6 @@ then press Extract All, and it will ask you where to extract to, just press OK. 
 
 Then open the Exe Folder, then you can use the executable versions of the scripts.
 
-*Ping.py's executable is coming soon*
+To-do:
+- [x] Executables
+- [ ] Ping.py executable
