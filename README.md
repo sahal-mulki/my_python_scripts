@@ -4,11 +4,9 @@ Sahal Mulki
 
 # Editing the code
 
-To download the code first click 
-![CODE](https://raw.githubusercontent.com/lepythoner/my_python_scripts/master/Screenshot_2020-07-25%20lepythoner%20my_python_scripts.png)
+To download the code first click Downlaod Code
 
-Then press
-![ZIP](https://raw.githubusercontent.com/lepythoner/my_python_scripts/master/Screenshot_2020-07-25%20lepythoner%20my_python_scripts(1).png)
+Then press DOWNLOAD ZIP
 
 The next step is to "Unpack" the zip Folder.
 
@@ -30,12 +28,9 @@ Well there is a solution for that too!
 First follow these instructions to download the code:
 
 
-To download the code first click 
-![CODE](https://raw.githubusercontent.com/lepythoner/my_python_scripts/master/Screenshot_2020-07-25%20lepythoner%20my_python_scripts.png)
+To download the code first click Download Code
 
-Then press
-![ZIP](https://raw.githubusercontent.com/lepythoner/my_python_scripts/master/Screenshot_2020-07-25%20lepythoner%20my_python_scripts(1).png)
-
+Then press Download ZIP
 The next step is to "Unpack" the zip Folder.
 
 Then open the Exe Folder, then you can use the executable versions of the scripts.
