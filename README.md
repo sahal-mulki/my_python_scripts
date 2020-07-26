@@ -4,7 +4,7 @@ Sahal Mulki
 
 # Editing the code
 
-To download the code first click Downlaod Code
+To download the code first click Download Code
 
 Then press DOWNLOAD ZIP
 
