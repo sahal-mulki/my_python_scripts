@@ -1,4 +1,4 @@
-# My python scripts
+﻿# My python scripts
 Archive of cool scripts made by me,
 Sahal Mulki
 
@@ -44,3 +44,7 @@ After opening the exe you may get a error like this:
 To-do:
 - [x] Executables
 - [ ] Ping.py executable
+
+### But Isn't there a easier Way?
+
+Sadly, **not yet**.
