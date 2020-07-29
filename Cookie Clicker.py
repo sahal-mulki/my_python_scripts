@@ -2,7 +2,7 @@ from winput import *
 import time
 
 
-
+print("By Sahal Mulki")
 print("     C     ")
 print("     O     ")
 print("     O     ")

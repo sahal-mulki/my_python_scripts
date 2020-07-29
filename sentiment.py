@@ -8,6 +8,9 @@ three_star_data = ["This was pretty good. But I had a hard time liking the main 
 four_star_data = ["This novel was great. I just couldn’t put it down. But some parts were confusing, and I had to re-read a few times until I could figure out what the author meant. Other than that, super!", "Great story. I gave it only four stars because I felt the lovey-dovey scenes were too much. Just my preference. My favorite part is the ending, and I admit I cried. Keep up the good work! Hoping you’ll tone it down though.", "This was really good, and I’ll mention it to friends. But I thought the style, especially some odd punctuation, made it hard to read at times.", "I am deeply grateful for this book. It opened my eyes to different ways I can trim my constantly overbooked lifestyle and get my sanity and my health back. Thank you! PS I would have given it 5 stars but some sections didn’t have the details I wanted."]
 five_star_data = ["I loved this! I could totally relate to the main character, and I loved the ending. Can’t wait for the next one!", "This was just beautiful. The story warmed my heart, and I plan on reading it all over again starting tonight.", "I really appreciate the detailed advice, tips, and instructions in this book. And the worksheets are great. It’s exactly what I need to make my business a success!", "Good story. Held my interest throughout."]
 
+print("By Sahal Mulki")
+print("Ps. I didnt make the frame work for this")
+
 for x in one_star_data:
     print("One star data:")
     sentiment = analyzer.polarity_scores(x)

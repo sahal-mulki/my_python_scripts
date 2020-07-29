@@ -4,7 +4,7 @@ from cryptography.fernet import Fernet
 key = Fernet.generate_key()
 f = Fernet(key)
 
-
+prin("By Sahal Mulki")
 input1 = input("(E)ncrypt or (D)ecrypt")
 
 
