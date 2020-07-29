@@ -30,8 +30,6 @@ Well there is a solution for that too!
 
 First follow these instructions to download the code:
 
-Switch to the executables branch
-
 To download the code first click
 ![CODE](https://raw.githubusercontent.com/lepythoner/my_python_scripts/master/photos/Screenshot_2020-07-25%20lepythoner%20my_python_scripts.png)
 
@@ -41,6 +39,7 @@ Then press
 The next step is to "Unpack" the zip Folder, to do that right-click the Zip folder which you downloaded
 then press Extract All, and it will ask you where to extract to, just press OK. Then go into the new folder.
 
+Then go inside the EXE folder and reun the exes.
 To-do:
 - [x] Executables
 - [ ] Ping.py executable
