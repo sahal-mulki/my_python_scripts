@@ -39,7 +39,7 @@ Then press
 The next step is to "Unpack" the zip Folder, to do that right-click the Zip folder which you downloaded
 then press Extract All, and it will ask you where to extract to, just press OK. Then go into the new folder.
 
-Then go inside the EXE folder and reun the exes.
+Then go inside the EXE folder and rerun the exes.
 To-do:
 - [x] Executables
 - [ ] Ping.py executable
