@@ -1,3 +1,7 @@
+# USE AT YOUR OWN RISK
+# THIS IS NOT FULLY SECURE ENCRYPTION
+# IF ITS A REALLY IMPORTANT THING USE 
+# A MORE SECURE ENCRYPTION ALGORITHM
 from cryptography.fernet import Fernet
 
 
@@ -22,5 +26,4 @@ if input1 == "E":
     secure_secret = str(secure_secret, 'utf-8')
     print("Encryption complete , here's the encrypted string : " + str(secure_secret))
 
-
-
+    
