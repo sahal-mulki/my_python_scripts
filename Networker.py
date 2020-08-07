@@ -4,9 +4,6 @@ import winsound
 import time
 import subprocess
 
-init()
-
-
 print("Networker - Loading")
 
 input0 = input("1 - remote_sdown | 2 - check_adress | 3 - check_ips")
@@ -32,7 +29,7 @@ elif input0 == "2":
         if "not find" in ping:
             print(" ")
             print("Website is down! Website is down!")
-            print("OR you just gave a wrong address ¯\_(ツ)_/¯")
+            print("OR you just gave a wrong address")
             winsound.Beep(1000, 250)
             winsound.Beep(1000, 250)
             winsound.Beep(1000, 250)
