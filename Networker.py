@@ -60,6 +60,7 @@ def networkly():
 
     elif input0 == "5":
         input3 = input("Address: ")
+        print("This will take some time")
         i = subprocess.Popen(["tracert", input3], stdout=subprocess.PIPE)
         ip0 = i.communicate()[0]
         ip_final = ip0.decode()
