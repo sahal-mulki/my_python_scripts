@@ -1,6 +1,5 @@
 ﻿#For administration and maintainence purposes ONLY
 
-import time
 import subprocess
 import os 
 import webbrowser
@@ -25,7 +24,6 @@ def networkly():
     elif input0 == "2":
         input1 = input("Domain Name")
         while True:
-            time.sleep(0.50)
             p = subprocess.Popen(["ping", input1, "-n", "1"], stdout=subprocess.PIPE)
             ping0 = p.communicate()[0]
             ping = ping0.decode()
