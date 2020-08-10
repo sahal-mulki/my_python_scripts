@@ -9,7 +9,9 @@ from cryptography.fernet import Fernet
 key = Fernet.generate_key()
 f = Fernet(key)
 
-prin("By Sahal Mulki")
+__author__ = "Sahal Mulki"
+
+print("Made by Sahal Mulki")
 input1 = input("(E)ncrypt or (D)ecrypt")
 
 
