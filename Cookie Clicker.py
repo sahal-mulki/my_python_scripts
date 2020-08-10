@@ -1,8 +1,8 @@
 from winput import *
 import time
+__author__ = "Sahal Mulki"
 
-
-print("By Sahal Mulki")
+print("Made by Sahal Mulki")
 print("     C     ")
 print("     O     ")
 print("     O     ")
