@@ -1,8 +1,9 @@
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
+__author__ = "Sahal Mulki"
 
-print("By Sahal Mulki")
+print("Made by Sahal Mulki")
 options = Options()
 options.headless = True
 cap = DesiredCapabilities().FIREFOX
