@@ -1,5 +1,7 @@
 ﻿#For administration and maintainence purposes ONLY
+__author__ = "Sahal Mulki"
 
+print("Made by Sahal Mulki")
 import subprocess
 import os 
 import webbrowser
