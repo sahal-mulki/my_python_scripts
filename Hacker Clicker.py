@@ -1,5 +1,7 @@
 import pyautogui
 import time
+import os
+
 __author__ = "Sahal Mulki"
 
 print("Made by Sahal Mulki")
@@ -39,17 +41,20 @@ if input0 == "C":
         i = 0
         while a == 1:
             pyautogui.click()
-            time.sleep(0.005)
+            time.sleep(0.0005)
             i += 1
             print(i)
     elif input1 == "S" :
         input3 = int(input("Enter number of times cookie will be clicked"))
         input4 = input("Place your cursor on the cookie and press ENTER")
         while input3 != 0:
-            pyautogui.click()
-            input3 -= 1
-            time.sleep(0.0005)
-            print(input3)
+            try:
+                pyautogui.click()
+                input3 -= 1
+                time.sleep(0.0005)
+                print(input3)
+            except:
+                print("Error")
         if input3 == 0:
             print("DONE!")
             time.sleep(10)
@@ -62,10 +67,14 @@ elif input0 == "D":
     i = 0
     for x in range(int(input6)):
         for x in range(100):
-            pyautogui.click()
-            time.sleep(0.005)
-            i += 1
-            print(i)
+            try:
+                pyautogui.click()
+                time.sleep(0.0005)
+                i += 1
+                print(i)
+            except:
+                print("Failsafe activated !!!!")
+                os._exit()
         print("Collect your coins")
         time.sleep(2)
     
