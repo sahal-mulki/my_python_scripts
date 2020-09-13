@@ -1,6 +1,7 @@
 import pyautogui
 import time
 import os
+import pyscreeze
 
 __author__ = "Sahal Mulki"
 
@@ -21,12 +22,6 @@ print("     E     ")
 print("     R     ")
 
 print("(Y)es or (N)o")
-inputabc = input("Should failsafe be on (mouse in top left corner will stop the program)")
-
-if inputabc == "Y":
-    pyautogui.FAILSAFE = True
-elif inputabc == "N":
-    pyautogui.FAILSAFE = False
     
 input0 = input("Would you Like to hack (C)ookie Clicker or (D)oge Clicker")
  
@@ -36,17 +31,29 @@ if input0 == "C":
     input1 = input("Would you Like to (I)nfinity Tap or Tap the cookie a (S)pecified amount of times")
     
     if input1 == "I": 
-        input2 = input("Place your cursor on the cookie and press ENTER")
-        a = 1
+
+
+        screen = pyscreeze.screenshot()
+        cookie = pyscreeze.locateOnScreen('cookie.png')
+        cookiex, cookiey = pyscreeze.center(cookie)
+
+        pyautogui.moveTo(cookiex, cookiey)
+
         i = 0
-        while a == 1:
+        while True:
             pyautogui.click()
             time.sleep(0.0005)
             i += 1
             print(i)
     elif input1 == "S" :
         input3 = int(input("Enter number of times cookie will be clicked"))
-        input4 = input("Place your cursor on the cookie and press ENTER")
+        
+        screen = pyscreeze.screenshot()
+        cookie = pyscreeze.locateOnScreen('cookie.png')
+        cookiex, cookiey = pyscreeze.center(cookie)
+
+        pyautogui.moveTo(cookiex, cookiey)
+        
         while input3 != 0:
             try:
                 pyautogui.click()
@@ -55,6 +62,7 @@ if input0 == "C":
                 print(input3)
             except:
                 print("Error")
+                
         if input3 == 0:
             print("DONE!")
             time.sleep(10)
@@ -62,20 +70,18 @@ if input0 == "C":
 elif input0 == "D":
 
     input6 = input("How many cycles do you want to execute?")
-    input5 = input("Place your cursor on the ore and press ENTER")
-    b = 1
+
+
+    
     i = 0
     for x in range(int(input6)):
         for x in range(100):
-            try:
-                pyautogui.click()
-                time.sleep(0.0005)
-                i += 1
-                print(i)
-            except:
-                print("Failsafe activated !!!!")
-                os._exit()
+            
+            pyautogui.click()
+            time.sleep(0.0005)
+            i += 1
+            print(i)
         print("Collect your coins")
-        time.sleep(2)
+        time.sleep(3)
     
     
