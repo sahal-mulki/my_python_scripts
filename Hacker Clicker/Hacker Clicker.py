@@ -70,8 +70,7 @@ if input0 == "C":
 elif input0 == "D":
 
     input6 = input("How many cycles do you want to execute?")
-
-
+    input7 = input("Put your cursor on rock")
     
     i = 0
     for x in range(int(input6)):
