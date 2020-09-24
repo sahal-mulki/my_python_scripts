@@ -2,9 +2,9 @@ from cryptography.fernet import Fernet
 import time
 import pyperclip
 
-def make_unicode(input2):
-    input2 = input2.decode('utf-8')
-    return input2
+def make_unicode(un_unicodedthing):
+    unicodedthing = un_unicodedthing.decode('utf-8')
+    return unicodedthing
 
 key = Fernet.generate_key()
 f = Fernet(key)
