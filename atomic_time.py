@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
+
 __author__ = "Sahal Mulki"
 
 print("Made by Sahal Mulki")
@@ -15,10 +16,3 @@ time = driver.find_element_by_id('time_section')
 print(time.text)
 
 driver.quit()
-
-
-
-
-
-
-
